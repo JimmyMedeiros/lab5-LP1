@@ -3,9 +3,9 @@
  * @brief	Função que recebe como parâmetro um container, um label e um separador e imprime todos os elementos do container
  *
  * @author	Josivan Medeiros da Silva Gois
-  * @since	05/11/2017
-  * @date	05/11/2017
-  */
+ * @since	05/11/2017
+ * @date	05/11/2017
+ */
 #include <set>
 using std::set;
 #include <iostream>
@@ -16,10 +16,11 @@ template<typename TContainer>
 void print_elementos(const TContainer& collection, const char* label="",
 const char separator=' ')
 {
-	cout << label;
-	for (auto it = collection.begin(); it != collection.end(); ++it)
+	auto it = collection.begin();
+	cout << label << *it;
+	for (++it ; it != (collection.end()); ++it)
 	{
-		cout << *it << separator;
+		cout << separator << *it;
 	}
 	cout << endl;
 }
