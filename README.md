@@ -16,11 +16,9 @@ Um programa que passado um número n pelo terminal, cria um vetor com os naturai
 ## Questão 04
 Um programa que cria um vector de inteiros de 1 até 9 e um segundo vector para armazenar o quadrado desses valores através da função transform. Os valores do segundo vector são impressos no std::cout.
 
-# TODO
+# Instruções de Compilação
 
-- [x] Terminar a questão 03.
-- [x] Explicar a questão 04.
-
+Existe uma pasta para cada questão. Dentro de cada pasta existe um arquivo Makefile.
 
 # Autoria
 

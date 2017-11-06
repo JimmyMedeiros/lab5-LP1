@@ -1,5 +1,5 @@
-/**
- * @file	questão03.cpp
+/*
+ * @file	questao03.cpp
  * @brief	Um programa que passado um número n pelo terminal, cria um vetor com os naturais até n e faz uma busca no vetor imprimindo os primos.
  *
  * @author	Josivan Medeiros da Silva Gois

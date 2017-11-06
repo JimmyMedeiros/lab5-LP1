@@ -1,5 +1,5 @@
-/**
- * @file	questão04.cpp
+/*
+ * @file	questao04.cpp
  * @brief	.
  *
  * @author	Josivan Medeiros da Silva Gois
@@ -31,7 +31,6 @@ int square(int val) {
  *
  * @details	A função transform aplica a função square a cada elemento do vector col. O terceiro argumento deve ser um iterator para a primeira posição do container que vai receber os valores. Porém, como a função apenas acessa o container e o col2 não tem espaço alocado para receber os valores, é necessário usar a função back_inserter para inserir o valor criando um iterador para o fim do container.
  */
-
 int main(int argc, char* argv[]) {
 	vector<int> col;
 	vector<int> col2;
@@ -39,7 +38,7 @@ int main(int argc, char* argv[]) {
 	for (int i = 1; i <= 9; ++i) {
 		col.push_back(i);
 	}
-	
+
 	transform(col.begin(), col.end(), back_inserter(col2), square);
 	
 	for (vector<int>::iterator it = col2.begin(); it != col2.end(); ++it) {
