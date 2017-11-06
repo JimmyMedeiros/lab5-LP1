@@ -1,6 +1,6 @@
 /**
  * @file	questão03.cpp
- * @brief	Função que recebe como parâmetro um container, um label e um separador e imprime todos os elementos do container
+ * @brief	Um programa que passado um número n pelo terminal, cria um vetor com os naturais até n e faz uma busca no vetor imprimindo os primos.
  *
  * @author	Josivan Medeiros da Silva Gois
  * @since	05/11/2017

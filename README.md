@@ -5,15 +5,21 @@ Este é o quinto laboratório da disciplina de Linguagem de Programação do cur
 # Questões
 
 ## Questão 01
-- @TODO
+Um programa que dado um intervalo retorna o primeiro valor mais próximo da média dos valores.
 
 ## Questão 02
-- @TODO
+Um programa que dado um container, um label e um separador, imprime todos os elementos do container com um separador entre eles.
+
+## Questão 03
+Um programa que passado um número n pelo terminal, cria um vetor com os naturais até n e faz uma busca no vetor imprimindo os primos.
+
+## Questão 04
+Um programa que cria um vector de inteiros de 1 até 9 e um segundo vector para armazenar o quadrado desses valores através da função transform. Os valores do segundo vector são impressos no std::cout.
 
 # TODO
 
-- [ ] Terminar a questão 03.
-- [ ] Explicar a questão 04.
+- [x] Terminar a questão 03.
+- [x] Explicar a questão 04.
 
 
 # Autoria
